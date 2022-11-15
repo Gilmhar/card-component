@@ -1,0 +1,136 @@
+/************ CUSTOM PROPERTIES ***********/
+
+/************ RESET ***********/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color:rgb(7, 172, 175);
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    overflow: hidden;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* SITE STYLES */
+
+.bg-image{
+    position: absolute;
+}
+
+.bg-image-top{
+    top: -400px;
+    left: -100px;
+}
+
+.bg-image-bottom{
+    bottom: -400px;
+    right: -100px;
+}
+
+.container{
+    position: relative;
+    top: 30vh;
+    width: 400px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-images{
+    position: relative;
+    height: 120px;
+    text-align: center;
+}
+
+.pattern-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.profile-image{
+    position: absolute;
+    top: 90px;
+    left: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    background-color: #fff;
+}
+
+.card-info{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border-bottom: 2px solid rgb(0, 0, 0, 0.1);
+}
+
+.card-text{
+    margin-bottom: 0.5em;
+}
+
+.card-text-light{
+    color: hsl(227, 10%, 46%);
+}
+
+.card-data{
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
+    text-align: center;
+}
+
+.card-stats{
+    display: inline-block;
+    margin: 0 0.5em;
+    width: 100px;
+    text-align: center;
+}
+
+.card-number{
+    margin-bottom: 0.5em;
+    font-size: 1.8rem;
+}
